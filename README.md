@@ -1,7 +1,7 @@
 # NoobFetch
 Terminal based system information tool writted with Bash.
 
-## Installation
+## Installation ( Needs Root Access )
 ```bash
 $ mv noobfetch.sh /usr/bin/noobfetch
 ```
