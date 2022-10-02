@@ -20,7 +20,7 @@ echo -e "
    ${red}___${tp}   
   ${red}|_^_|	$cyan SHELL:\t $tp   ${SHELL}
   ${red}|   | $cyan OS:\t$tp    ${PRETTY_NAME}
-  ${red}|   | $cyan CPU:\t$tp $(lscpu | grep 'Model name' | cut -f 2 -d ":" | awk '{$1=$1}1')
+  ${red}|   | $cyan CPU:\t$tp   $(lscpu | grep 'Model name' | cut -f 2 -d ":" | awk '{$1=$1}1')
   ${red}|   | $cyan USER:\t$tp    ${USER}
   ${red}|   | $cyan RAM USAGE:$tp $(awk '($1 == "MemFree:") {print($2 / 1024)}' "/proc/meminfo") MB
  ${red}|__|__|$cyan GPU:\t$tp    $gpu
