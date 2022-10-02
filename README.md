@@ -5,4 +5,8 @@ Terminal based system information tool writted with Bash.
 ```bash
 $ ./install.sh
 ```
+or 
+```bash
+$ make install
+```
 
